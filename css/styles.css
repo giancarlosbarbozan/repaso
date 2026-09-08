@@ -1,0 +1,44 @@
+
+/* VARIABLES CSS */
+/* El root es el selector padre*/
+:root{
+    --colorPrimario: #EC111A;
+    --colorSecundario: #082BA5;
+    --colorTerciario: #007BDF;
+    --colorTitulos: #282D31;
+    --colorParrafos: #53575A;
+    --colorSombras: #282D31; 
+}
+/* SELECTOR UNIVERSAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo-2, .titulo-1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: 600;
+}
+.titulo-1{
+    color: var(--colorPrimario);
+    font-size: 2.2em;
+    margin-top: -14px;
+}
+.titulo-4, .titulo-3{
+    font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: 600;
+}
+.titulo-3{
+    color: var(--colorPrimario);
+    margin-top: -14px;
+}
+.parrafo{
+    font-family: 'Poppins';
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+}
